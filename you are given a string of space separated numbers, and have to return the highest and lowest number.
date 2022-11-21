@@ -1,0 +1,19 @@
+function highAndLow(numbers){
+  const numArray = numbers.split(" ");
+
+  let max = Number(numArray[0])
+  let min = Number(numArray[0])
+  for (let i = 0; i < numArray.length;i++){
+    let num = Number(numArray[i])
+    if (num > max)
+      max = num;
+    if (num < min)
+      min = num;
+  }
+  return max + " " + min
+}
+
+//1. zamień na array z .split(" ")
+//2. zamień na numer
+//2. przeskanuj na min i max
+//3. return ze spacją
