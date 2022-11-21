@@ -1,0 +1,6 @@
+function removevowel(str) {
+   return str.replace(/[aeiou]/gi, '');
+  }
+
+//g  -global ( will remove vowels in the whole string)
+//i - insensitive ( doesn't matter if a letter is upper or lower case )
